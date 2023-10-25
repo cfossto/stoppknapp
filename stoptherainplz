@@ -2,7 +2,7 @@
 
 function StopBtn() {
   return (
-    <button>
+    <button class="btn btn-danger">
       Stop the rain.
     </button>
   );
@@ -11,7 +11,7 @@ function StopBtn() {
 
 export default function RainApp() {
   return (
-    <div class="btn btn-danger">
+    <div>
       <StopBtn />
     </div>
   );
