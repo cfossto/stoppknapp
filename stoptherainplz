@@ -10,9 +10,9 @@ function StopBtn() {
 
 
 export default function RainApp() {
-  return {
+  return (
     <div class="btn btn-danger">
       <StopBtn />
     </div>
-  }
+  );
 }
