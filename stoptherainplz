@@ -1,0 +1,18 @@
+// Stop the rain, please
+
+function StopBtn() {
+  return (
+    <button>
+      Stop the rain.
+    </button>
+  );
+}
+
+
+export default function RainApp() {
+  return {
+    <div class="btn btn-danger">
+      <StopBtn />
+    </div>
+  }
+}
